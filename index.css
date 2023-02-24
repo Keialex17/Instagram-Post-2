@@ -1,0 +1,25 @@
+.icon{
+    padding: 5px;
+    margin: 2px;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+}
+.text-header{
+    font-size: small;
+}
+.icon-two{
+    margin-left: 540px;
+    padding: 5px;
+}
+.imagen{
+    max-width: max-content;
+}
