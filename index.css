@@ -1,25 +1,72 @@
+body{
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-color: black ;
+}
+
+.postcard{
+    width: 450px;
+    margin: auto;
+    background-color: white;
+}
+
 .icon{
     padding: 5px;
     margin: 2px;
 }
-.container{
-    width: 50%;
-    margin: auto;
-    background-color: white;
-}
-body{
-    background-color: black;
-}
+
+
 .header{
     display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: white;
 }
+
 .text-header{
     font-size: small;
 }
+
 .icon-two{
-    margin-left: 540px;
+    margin-left: 310px;
     padding: 5px;
 }
-.imagen{
-    max-width: max-content;
+
+.img{
+    width: 100%;
+	margin: auto
+}
+
+.iconos{
+    display: flex;
+    margin-left: 1px;
+    padding: 5px;
+}
+
+.fa-heart{
+    margin: 2px;
+    margin-left: 1px;
+    font-size: 20px;
+}
+
+.fa-comment{
+    margin: 2px;
+    font-size: 20px;
+}
+
+.fa-paper-plane{
+    margin: 2px;
+    font-size: 20px;
+}
+
+.fa-bookmark{
+    margin-left: 355px;
+    margin-right: 1px;
+    font-size: 20px;
+}
+
+.text-footer{
+    margin: 2px;
+    padding: 5px;
 }
